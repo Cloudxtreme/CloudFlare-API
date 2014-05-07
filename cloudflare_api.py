@@ -49,5 +49,5 @@ class CloudflareApi:
     else:
       return result["msg"]
 
-cf = CloudflareApi("014cb0dbf6cf9f3a7a88376d3cc5455b")
+cf = CloudflareApi("")
 print cf.create_account("test1", "test2", "vmuser111111111")
